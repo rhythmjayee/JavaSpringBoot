@@ -1,6 +1,7 @@
-package com.rhythm.learnspring;
+package com.rhythm.learnspring.helloworld;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 import java.util.Arrays;
 
 public class AppHelloWorldSpring {
