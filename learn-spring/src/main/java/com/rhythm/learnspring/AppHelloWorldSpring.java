@@ -1,6 +1,7 @@
 package com.rhythm.learnspring;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import java.util.Arrays;
 
 public class AppHelloWorldSpring {
 
@@ -21,6 +22,12 @@ public class AppHelloWorldSpring {
 		System.out.println(context.getBean("person3Parameters"));
 		System.out.println(context.getBean("address2"));
 		//System.out.println(context.getBean(Address.class));
+		System.out.println(context.getBean(Person.class));
+		System.out.println(context.getBean(Address.class));
+		System.out.println(context.getBean("person5Qualifier"));
+		//System.out.println
+		Arrays.stream(context.getBeanDefinitionNames())
+			.forEach(System.out::println);
   
 	}
 
