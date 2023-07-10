@@ -1,4 +1,4 @@
-package com.rhythm.learnspring.game;
+package com.rhythm.learnspring.games.game1;
 
 public class MarioGame implements GamingConsole{
 	

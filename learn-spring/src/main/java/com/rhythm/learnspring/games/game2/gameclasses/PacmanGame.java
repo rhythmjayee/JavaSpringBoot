@@ -1,5 +1,8 @@
-package com.rhythm.learnspring.game;
+package com.rhythm.learnspring.games.game2.gameclasses;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PacmanGame implements GamingConsole{
 	
 	public void up() {
