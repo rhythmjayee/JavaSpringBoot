@@ -25,7 +25,7 @@ class SomeClass {
 	}
 	
 	@PostConstruct //-> wired the initialization of other stuffs
-	public void initialize() {
+	public void initialize() { 
 		someDependency.getReady();
 	}
 	
