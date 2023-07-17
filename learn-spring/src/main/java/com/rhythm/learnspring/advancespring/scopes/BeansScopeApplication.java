@@ -9,7 +9,8 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 
-@Component
+@Component //default -> spring singleton scope -> one bean/class obj per spring container
+//java singleton -> one class obj per JVM
 class NormalClass {
 	
 }
