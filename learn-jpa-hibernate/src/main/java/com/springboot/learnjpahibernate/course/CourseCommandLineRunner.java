@@ -4,13 +4,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import com.springboot.learnjpahibernate.course.jdbc.CourseJdbcRepository;
 import com.springboot.learnjpahibernate.course.jpa.CourseJpaRepository;
 
 @Component
 public class CourseCommandLineRunner implements CommandLineRunner{
 
 	@Autowired
-	private CourseJpaRepository repository;
+	private CourseJdbcRepository repository;
+	
+//	@Autowired
+//	private CourseJpaRepository repository;
 	
 	@Override
 	public void run(String... args) throws Exception {
