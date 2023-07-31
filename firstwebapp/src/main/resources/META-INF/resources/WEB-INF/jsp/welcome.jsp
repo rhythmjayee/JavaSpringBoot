@@ -3,7 +3,7 @@
 		<title>Welcome Page</title>
 	</head>
 	<body>
-		<div>Welcome to in28minutes</div>
-		<div>Your Name: ${name}</div>
+		<h1>Welcome to in28minutes</h1>
+		<h2>Your Name: ${name}</h2>
 	</body>
 </html>
